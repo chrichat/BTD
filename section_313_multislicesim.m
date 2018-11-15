@@ -1,4 +1,4 @@
-function [corr_tpica, corr_cpd, corr_btd, corr_pfac2, corr_btd2]=multislice_sim(SNR, dataset,iter)
+function [corr_tpica, corr_cpd, corr_btd, corr_pfac2, corr_btd2]=section_313_multislicesim(SNR, dataset,iter)
 
 % This function reproduces the results presented in section 3.1.1 of [1]
 %

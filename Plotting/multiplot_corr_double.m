@@ -55,7 +55,7 @@ scatter(xx,autcorr_pfac2(:),200,[0.4 0.8 0.4],'d','filled')
 h=legend({'TPICA;Principal CCD', 'CPD;Principal CCD', 'PARAFAC2;Principal CCD', 'TPICA;Mean crosstalk CCD', 'CPD;Mean crosstalk CCD','PARAFAC2;Mean crosstalk CCD'});
 set(h,'FontSize',16)
 legendmarkeradjust(20)
-set(gca,'Xtick',[0.9, 1 , 1.1, 1.2, 1.3, 1.4 ,1.5, 1.6, 1.7 ,1.8, 1.9, 2.0, 2.1,2.2,2.3,2.4,2.5])
+set(gca,'Xtick',[0.9, 1 , 1.1, 1.2, 1.3, 1.4 ,1.5, 1.6, 1.7 ,1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4 ,2.5])
 set(gca,'Xticklabel',{'','Source 1','Source 2','Source 3','','Source 1','Source 2','Source 3','','Source 1','Source 2','Source 3','','Source 1','Source 2','Source 3',''})
 set(gca,'FontSize',16,'FontWeight','Bold')
 
@@ -72,7 +72,7 @@ scatter(xxline+0.25,1-autcorr_tpica(:),150,[0.549, 0.274, 0.274],'d','filled','M
 h=legend({'PARAFAC2;Principal','PARAFAC2;Crosstalk','CPD;Principal CCD','CPD;Crosstalk','TPICA;Principal', 'TPICA;Crosstalk '});
 set(h,'FontSize',16)
 legendmarkeradjust(20)
-set(gca,'Xtick',[1:11])
+set(gca,'Xtick',[1:15])
 set(gca,'Xticklabel',{'Source 1','Source 2','Source 3','','Source 1','Source 2','Source 3','','Source 1','Source 2','Source 3','','Source 1','Source 2','Source 3',})
 set(gca,'FontSize',16,'FontWeight','Bold')
 end

@@ -1,4 +1,0 @@
-#paok
-
--test
-r

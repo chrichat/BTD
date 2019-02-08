@@ -24,8 +24,13 @@ While for the correlation values used in Section 3.1.3 the function section_313_
 For the analysis of the real data after downloading the data from openfmri and changing the niftiifile from type 2 to type 1 (the code is inlcuded also but commented) the file run_btdanalysis2_REAL  (in the Real data folder) must be executed. In order to create the augmented datasets of Sections 3.2.0.1 the file make_augemented_dataset can be used.
 
 [1] N. E. Helwig and S. Hong, "A critique of Tensor Probabilistic Independent Component Analysis: implications and recommendations for multi-subject fMRI data analysis,"  J. Neuroscience Methods, vol. 213, no. 2, pp. 263-273, Mar. 2013.
+
 [2]E. B. Erhardt, S. Rachakonda, E. J. Bedrick, E. A. Allen, T. Adali, and V. D. Calhoun, "Comparison of multi-subject ICA methods for analysis of fMRI data," Human Brain Mapping, vol. 32, no. 12, pp. 2075-2095, 2011.12.
+
 [3] A. Stegeman, "Comparing Independent Component Analysis and the PARAFAC model for artificial multisubject fMRI data," Unpublished Technical Report, Univ. of Groeningen, Feb. 2007.
+
 [4] P. A. Smeets, F. M. Kroese, C. Evers, and D. T. de Ridder, "Allured or alarmed: counteractive control responses to food temptations in the brain," Behavioural Brain Research, vol. 248, no. 1, pp. 41-45, Jul. 2013.
+
 [5] N. Vervliet, O. Debals, L. Sorber, M. Van Barel, and L. De Lathauwer, "Tensorlab 3.0," Mar. 2016. https://www.tensorlab.net/
+
 [6] Z. Boukouvalas, Y. Levin-Schwartz, Vince D. Calhoun, and T. Adali, "Sparsity and Independence: Balancing of two Objectives in Optimization for Source Separation with Application to fMRI Analysis," Elsevier, Journal of the Franklin Institute (JFI), Engineering and Applied Mathematics, 2017. 
